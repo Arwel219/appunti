@@ -1,1 +1,1 @@
-# appunti
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8e41b756-265a-4ae9-beb7-df18edef05f8/deploy-status)](https://app.netlify.com/sites/appunti-atena/deploys)
