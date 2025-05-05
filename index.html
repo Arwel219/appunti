@@ -49,6 +49,14 @@
 	    cursor: pointer; /* Cambia il cursore del mouse in un puntatore quando si passa sopra il bottone */
 	    transition: background-color 0.3s ease, transform 0.2s ease; /* Animazione al passaggio del mouse */
 	    margin-left: 10px; /* Spazio a sinistra del bottone */
+	    display: flex; /* Aiuta ad allineare l'immagine e il testo */
+	    align-items: center; /* Centra verticalmente l'immagine e il testo */
+	}
+	
+	.code-button img {
+	    width: 20px; /* Imposta la larghezza dell'immagine (regola se necessario) */
+	    height: auto; /* Mantiene le proporzioni dell'immagine */
+	    margin-right: 8px; /* Aggiunge spazio a destra dell'immagine */
 	}
 	
 	.code-button:hover {
@@ -242,12 +250,12 @@
 
 	</body>
 
-<footer>
+	<footer>
 	<hr>
 	<p>© Appunti Atena
-    <button class="code-button" onclick="window.open('https://github.com/Arwel219/appunti/blob/main/index.html', '_blank')">
-         Link per il codice
-    </button>
+    		<button class="code-button" onclick="window.open('https://github.com/Arwel219/appunti/blob/main/index.html', '_blank')">
+        	<img src="github-icon.png" alt="Icona">Link per il codice
+    	</button>
 	</p>
-</footer>
+	</footer>
 </html>
