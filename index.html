@@ -459,7 +459,7 @@
 		&lt;/html&gt;
 	</pre>
 	</p>
-	<p>Div allineato utilizzando sia inferiormente che superiormente, la proprieta "<em>display:flex</em>":
+	<p>Div allineato utilizzando sia superiormente che inferiormente, la proprieta "<em>display:flex</em>":
 	<pre>
 		&lt;!DOCTYPE html&gt;
 		&lt;html&gt;
@@ -504,6 +504,50 @@
 		&lt;/body&gt;
 		&lt;/html&gt;
 	</pre>
+	</p>
+	<p>Div allineato sia superiormente che inferiormente utilizzando le proprieta "<em>display: grid</em>" e "<em>grid-template-columns: 33% 33% 33%</em>": 
+	<pre>
+		&lt;!DOCTYPE html&gt;
+		&lt;html&gt;
+		&lt;head&gt;
+		&lt;style&gt;
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: 33% 33% 33%;
+		}
+		&lt;/style&gt;
+		&lt;/head&gt;
+		&lt;body&gt;
+		
+		&lt;h1&gt;Grid Example&lt;/h1&gt;
+		
+		&lt;p&gt;Align three DIV elements side by side.&lt;/p&gt;
+		
+		&lt;div class="grid-container"&gt;
+		
+		&lt;div style="background-color:#FFF4A3;"&gt;
+		  &lt;h2&gt;London&lt;/h2&gt;
+		  &lt;p&gt;London is the capital city of England.&lt;/p&gt;
+		  &lt;p&gt;London has over 9 million inhabitants.&lt;/p&gt;
+		&lt;/div&gt;
+		
+		&lt;div style="background-color:#FFC0C7;"&gt;
+		  &lt;h2&gt;Oslo&lt;/h2&gt;
+		  &lt;p&gt;Oslo is the capital city of Norway.&lt;/p&gt;
+		  &lt;p&gt;Oslo has over 700,000 inhabitants.&lt;/p&gt;
+		&lt;/div&gt;
+		
+		&lt;div style="background-color:#D9EEE1;"&gt;
+		  &lt;h2&gt;Rome&lt;/h2&gt;
+		  &lt;p&gt;Rome is the capital city of Italy.&lt;/p&gt;
+		  &lt;p&gt;Rome has over 4 million inhabitants.&lt;/p&gt;
+		&lt;/div&gt;
+		
+		&lt;/div&gt;
+		
+		&lt;/body&gt;
+		&lt;/html&gt;
+	</pre>	
 	</p>
 	<hr>
 	<br>
